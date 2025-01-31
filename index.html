@@ -9,6 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Averia+Sans+Libre:ital,wght@0,300;0,400;1,700&family=Marhey:wght@300;600;700&family=Montagu+Slab:opsz,wght@16..144,500&family=Noto+Serif:ital,wght@0,800;0,900;1,800;1,900&family=Pridi:wght@500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f25cce70b4.js" crossorigin="anonymous"></script> 
   <!--KITCODE: f25cce70b4--   #1b9bff-->
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ENWZV4VVT6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ENWZV4VVT6');
+</script>
   <script>
     function getLocation() {
       if (navigator.geolocation) {
@@ -135,6 +144,14 @@ nav .content .links{
   right: calc(-50% - 45px);
   background:#004080;
 }
+
+.content .links ul #show-Calculators1{
+  position: absolute;
+  top: 0;
+  right: calc(-50% - 65px);
+  background:#004080;
+}
+
 .content .links ul li{
   position: relative;
 }
@@ -156,7 +173,7 @@ nav .content .links{
   }
 }
 
-@media screen and (max-width: 1320px){
+@media screen and (max-width: 1425px){
   .wrapper .menu-icon{
     display: block;
     float:right;
@@ -234,7 +251,9 @@ nav .content .links{
 .content .links #show-items1:checked ~ ul,
 .content .links #show-items2:checked ~ ul,
 .content .links #show-items3:checked ~ ul,
-.content .links #show-items4:checked ~ ul{
+.content .links #show-items4:checked ~ ul,
+.content .links #show-Calculators:checked ~ ul,
+    .content .links #show-Calculators1:checked ~ ul{
     max-height: 180vh;
   
   }
@@ -319,99 +338,98 @@ nav .content .links{
       <input type="checkbox" id="show-menu">
       <div class="content">
        <label class="logo1" style="font-size:30px;padding-left:0px;">
-       <A style="color:WHITE;" HREF="https://farmplus-web.netlify.app/"><i class="fa-solid fa-caret-left "></i></A>
+       <A style="color:WHITE;" HREF="https://farmplus.vercel.app/"><i class="fa-solid fa-caret-left "></i></A>
      </label> 
       <div class="logo"><h1 id="F">FA<span id="Tid"><span class="rotateR">R</span></span>M+</h1></div>
         <ul class="links">
           <li>
-		    <a  class="desktop-link">CROPS / ਫਸਲਾਂ  <i class="fa-solid fa-caret-down "></i></a>
+		    <a  class="desktop-link"><i class="fab fa-pagelines"></i> CROPS / ਫਸਲਾਂ    <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-services0">
-            <label for="show-services0">CROPS / ਫਸਲਾਂ <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-services0"><i class="fab fa-pagelines"></i> CROPS / ਫਸਲਾਂ   <i class="fa-solid fa-caret-down "></i></label>
             <ul>            
-              <li><a href="https://vamshicompililng.github.io/PjbType/" target="mf">  <i class="fa-brands fa-pagelines"></i> TYPES / ਕਿਸਮਾਂ </a></li>
+              <li><a href="https://vamshicompililng.github.io/PjbType/" target="mf">  <i class="fas fa-leaf fa-shake"></i> TYPES / ਕਿਸਮਾਂ </a></li>
 			  <li><a href="https://vamshicompililng.github.io/pjbGrow/" target="mf"> <i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / ਵਿਕਾਸ  </a></li>
 		    </ul>
 		  </li>
 
           <!--
-		  <a href="C:\ALL INDIA\TELANGANA\TP WP\ADL crops.html" target="mf">CROPS / ਫਸਲਾਂ</a>
+		  <a href="C:\ALL INDIA\TELANGANA\TP WP\ADL crops.html" target="mf">CROPS / फसलें  </a>
 		  li><a href="C:\ALL INDIA\TELANGANA\TP WP\ADL grown.html" target="mf">GROWTH / ਵਿਕਾਸ</a></li-->
           <li>
-            <a  class="desktop-link">MORE / ਬਾਗਬਾਨੀ   <i class="fa-solid fa-caret-down "></i></a>
+            <a  class="desktop-link"><i class="fas fa-list-ul"></i> MORE / ਬਾਗਬਾਨੀ   <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-features">
-            <label for="show-features">MORE / ਬਾਗਬਾਨੀ <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-features"><i class="fas fa-list-ul"></i> MORE / ਬਾਗਬਾਨੀ <i class="fa-solid fa-caret-down "></i></label>
             <ul>
-              <!--li><a href="#" target="mf">VEGETABLES / ਸਬਜ਼ੀਆਂ</a></li-->
+              <!--li><a href="#" target="mf">VEGETABLES / सब्ज़ी</a></li-->
                 <li>
-                <a href="#" class="desktop-link">VEGETABLES / ਸਬਜ਼ੀਆਂ <i class="fa-solid fa-caret-right "></i></a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-carrot"></i> VEGETABLES / ਸਬਜ਼ੀਆਂ <i class="fa-solid fa-caret-right "></i></a>
                 <input type="checkbox" id="show-items">
-       <!---->  <label for="show-items">VEGETABLES / ਸਬਜ਼ੀਆਂ</label>
+       <!---->  <label for="show-items"><i class="fa-solid fa-carrot"></i> VEGETABLES / ਸਬਜ਼ੀਆਂ</label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/VegTypes/" target="mf"> <i class="fa-solid fa-carrot"></i> TYPES / ਕਿਸਮਾਂ </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/VegTypes/" target="mf"> <i class="fas fa-search fa-bounce"></i>  TYPES / ਕਿਸਮਾਂ </a></li>
                   <li><a href="https://mhasiemmalik.github.io/vegGwthFmp/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / ਵਿਕਾਸ  </a></li>                 
                 </ul>
                 </li>
 
                <!--li><a href="#" target="mf">FRUITS / పండ్లు</a></li-->
                 <li>
-                <a href="#" class="desktop-link">FRUITS / ਫਲ  <i class="fa-solid fa-caret-right "></i></a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-apple-whole"></i> FRUITS / ਫਲ    <i class="fa-solid fa-caret-right "></i></a>
                 <input type="checkbox" id="show-items1">
-      <!---->   <label for="show-items1">FRUITS / ਫਲ</i></label>
+      <!---->   <label for="show-items1"><i class="fa-solid fa-apple-whole"></i> FRUITS / ਫਲ  </i></label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/Fruitstypsfmp/"   target="mf"><i class="fa-solid fa-apple-whole"></i> TYPES / ਕਿਸਮਾਂ  </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/Fruitstypsfmp/"   target="mf"><i class="fas fa-search fa-bounce"></i>  TYPES / ਕਿਸਮਾਂ  </a></li>
                   <li><a href="https://mhasiemmalik.github.io/FruitsGwthFmp/" target="mf"> <i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / ਵਿਕਾਸ </a></li>                 
                 </ul>
                 </li>
 
-              <!--li><a href="#" target="mf">FLOWERS / ਫੁੱਲ</a></li-->
+              <!--li><a href="#" target="mf">FLOWERS / फूल</a></li-->
                 <li>
-                <a href="#" class="desktop-link">FLOWERS / ਫੁੱਲ <i class="fa-solid fa-caret-right "></i></a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-fan"></i> FLOWERS / ਫੁੱਲ <i class="fa-solid fa-caret-right "></i></a>
                 <input type="checkbox" id="show-items2">
-      <!---->   <label for="show-items2">FLOWERS / ਫੁੱਲ </label>
+      <!---->   <label for="show-items2"><i class="fa-solid fa-fan"></i> FLOWERS / ਫੁੱਲ </label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/flowertypefmp/" target="mf"><i class="fa-solid fa-fan"></i> TYPES / ਕਿਸਮਾਂ   </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/flowertypefmp/" target="mf"><i class="fas fa-search fa-bounce"></i> TYPES / ਕਿਸਮਾਂ   </a></li>
                   <li><a href="https://mhasiemmalik.github.io/FarmFlowerHRT/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / ਵਿਕਾਸ   </a></li>                 
                 </ul>
                 </li> 
 
 
-              <!--li><a href="#" target="mf" >SPICES / సుగంధద్రవ్యాలు</a></li-->
+              <!--li><a href="#" target="mf" >SPICES / मसाले</a></li-->
                 <li>
-                <a href="#" class="desktop-link">  SPICES / సుగంధద్రవ్యాలు <i class="fa-solid fa-caret-right "></i> </a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-mortar-pestle"></i>  SPICES / ਮਸਾਲੇ <i class="fa-solid fa-caret-right "></i> </a>
                 <input type="checkbox" id="show-items3">
-      <!---->   <label for="show-items3">SPICES / సుగంధద్రవ్యాలు</label>
+      <!---->   <label for="show-items3"><i class="fa-solid fa-mortar-pestle"></i> SPICES / ਮਸਾਲੇ</label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/spicestypfmp/"   target="mf"><i class="fa-solid fa-mortar-pestle"></i> TYPES / ਕਿਸਮਾਂ  </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/spicestypfmp/"   target="mf"><i class="fas fa-search fa-bounce"></i> TYPES / ਕਿਸਮਾਂ  </a></li>
                   <li><a href="https://mhasiemmalik.github.io/SpiceGrwthFmp/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / ਵਿਕਾਸ  </a></li>                 
                 </ul>
                 </li>
 
                 <li>
-                  <a href="#" class="desktop-link">  CASH CROPS / ਨਕਦੀ ਫਸਲਾਂ <i class="fa-solid fa-caret-right "></i> </a>
+                  <a href="#" class="desktop-link"><i class="fas fa-spa"></i>  CASH CROPS / ਨਕਦੀ ਫਸਲਾਂ <i class="fa-solid fa-caret-right "></i> </a>
                   <input type="checkbox" id="show-items4">
-        <!---->   <label for="show-items4">CASH CROPS / ਨਕਦੀ ਫਸਲਾਂ</label>
+        <!---->   <label for="show-items4"><i class="fas fa-spa"></i> CASH CROPS / ਨਕਦੀ ਫਸਲਾਂ</label>
                   <ul>
-                    <li><a href="https://mhasiemmalik.github.io/FarmCashCpTyp/"   target="mf"><i class="fas fa-spa"></i> TYPES / ਕਿਸਮਾਂ  </a></li>
+                    <li><a href="https://mhasiemmalik.github.io/FarmCashCpTyp/"   target="mf"><i class="fas fa-search fa-bounce"></i> TYPES / ਕਿਸਮਾਂ  </a></li>
                     <li><a href="https://mhasiemmalik.github.io/FarmCashCpGwt/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / ਵਿਕਾਸ  </a></li>                 
                   </ul>
                   </li>
 
-
-
             </ul>
           </li>
           <li>
-            <a  class="desktop-link">WEATHER / ਮੌਸਮ <i class="fa-solid fa-caret-down "></i></a>
+            <a  class="desktop-link"><i class="fas fa-cloud-sun-rain"></i> WEATHER / ਮੌਸਮ  <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-services">
-            <label for="show-services">WEATHER / ਮੌਸਮ <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-services"><i class="fas fa-cloud-sun-rain"></i> WEATHER / ਮੌਸਮ  <i class="fa-solid fa-caret-down "></i></label>
             <ul>
-              <li><a href="https://www.ventusky.com/?p=21.8;76.4;3&l=rain-3h" target="mf"><i class="fa-solid fa-hurricane fa-spin"></i> MAP / ਨਕਸ਼ਾ   </a></li>
+              <li><a href="https://www.ventusky.com/?p=21.8;76.4;3&l=rain-3h" target="mf"><i class="fa-solid fa-hurricane fa-spin"></i> CYCLONE MAP / तूफान का नक्शा   </a></li>
               <li><a href="" onclick="getLocation()" > <i class="fa-solid fa-temperature-low fa-bounce"></i> TEMPERATURE / ਤਾਪਮਾਨ </a></li>
               <li><a href="https://tv9punjabi.com/weather-forecast/amritsar-weather-update" target="mf"><i class="fa-solid fa-newspaper fa-shake"></i> NEWS / ਖਬਰਾਂ   </a></li>
               <!--li>
-                <a href="#" class="desktop-link">WEATHER / ਮੌਸਮ </a>
+                 https://www.ventusky.com/?p=21.8;76.4;3&l=feel 
+                <a href="#" class="desktop-link">WEATHER / मौसम  </a>
                 <input type="checkbox" id="show-items">
-                <label for="show-items">WEATHER / ਮੌਸਮ </label>
+                <label for="show-items">WEATHER / मौसम  </label>
                 <ul>
                   <li><a href="#">MAP</a></li>
                   <li><a href="#">DATA</a></li>
@@ -420,22 +438,56 @@ nav .content .links{
               </li-->
             </ul>
           </li>
-          <li><a href="https://mhasiemmalik.github.io/FarmPlusRepoCalCulate/" target="mf"><i class="fa-solid fa-calculator"> </i> CALCULATION / ਗਣਨਾ  </a></li>
-		  <!--li><a href="http://localhost:8080/FarmMpRegistration1/index.jsp" target="mf"><i class="fa-sharp fa-solid fa-store"></i> MARKET / విక్రయం  </a></li-->
+
+          <!--li>
+            <a  class="desktop-link">CALCULATION / లెక్కింపు <i class="fa-solid fa-caret-down "></i></a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">CALCULATION / లెక్కింపు <i class="fa-solid fa-caret-down "></i></label>
+            <ul>
+              <li><a href="calculations.html" target="mf"><i class="fa-solid fa-hurricane fa-spin"></i> Resource Forecast  </a></li>
+            </ul>
+          </li-->
+
+
+          <li>
+            <a  class="desktop-link"><i class="fas fa-calculator"></i> CALCULATION / ਗਣਨਾ   <i class="fa-solid fa-caret-down "></i></a>
+            <input type="checkbox" id="show-Calculators">
+            <label for="show-Calculators"><i class="fas fa-calculator"></i> CALCULATION / ਗਣਨਾ <i class="fa-solid fa-caret-down "></i></label>
+            <ul>
+                
+                <li><a href="https://mhasiemmalik.github.io/FarmPlusRepoCalCulate/" target="mf"><i class="fas fa-hand-holding-water fa-fade"></i> RESOURCE FORECAST /<BR> ਸਰੋਤ ਪੂਰਵ ਅਨੁਮਾਨ </a></li>
+                <li><a href="https://mhasiemmalik.github.io/CropRecomendationFarmPlus/" target="mf"><i class="fas fa-seedling fa-shake"></i> CROP SUGGESTIONS /<BR> ਫਸਲ ਸੁਝਾਅ </a></li>
+
+                <li>
+                  <a href="#" class="desktop-link"><i class="fas fa-coins fa-bounce"></i>  PRICE FORECAST / ਕੀਮਤ ਦਾ ਹਵਾਲਾ <i class="fa-solid fa-caret-right "></i> </a>
+                  <input type="checkbox" id="show-Calculators1">
+        <!---->   <label for="show-Calculators1" style="font-size: medium;"><i class="fas fa-coins fa-bounce"></i> PRICE FORECAST / ਕੀਮਤ ਦਾ ਹਵਾਲਾ <i class="fa-solid fa-caret-right "></i> </label>
+                  <ul>
+                    <li><a href="https://price-prediction-farmplus-v3.onrender.com"   target="mf"><i class="fas fa-hand-holding-usd fa-fade"></i> Price Prediction /<BR>ਕੀਮਤ ਪੂਰਵ ਅਨੁਮਾਨ</a></li>
+                    <li><a href="https://price-comparison-farmplus-v2.onrender.com" target="mf"><i class="fas fa-balance-scale fa-shake"></i> Price Comparison / <BR> ਕੀਮਤ ਦੀ ਤੁਲਨਾ </a></li>                 
+                  </ul>
+                </li>
+            </ul>
+          </li>
+
+
+
+          <!--li><a href="calculations.html" target="mf"><i class="fa-solid fa-calculator"> </i> CALCULATION / లెక్కింపు  </a></li>
+		  <--li><a href="http://localhost:8080/FarmMpRegistration1/index.jsp" target="mf"><i class="fa-sharp fa-solid fa-store"></i> MARKET / విక్రయం  </a></li-->
           
           <li>
-            <a  class="desktop-link"> MARKETS / ਬਾਜ਼ਾਰ <i class="fa-solid fa-caret-down "></i></a>
+            <a  class="desktop-link"><i class="fas fa-handshake"></i> MARKETS / ਬਾਜ਼ਾਰ <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-locations">
-            <label for="show-locations"> MARKETS / ਬਾਜ਼ਾਰ <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-locations"><i class="fas fa-handshake"></i> MARKETS / ਬਾਜ਼ਾਰ <i class="fa-solid fa-caret-down "></i></label>
             <ul>
-              <li><a href="http://localhost:8080/FarmMpRegistration1/index.jsp" target="mf"><i class="fa-solid fa-store fa-shake"></i> SELL AND BUY /<BR> ਵੇਚਣ ਅਤੇ ਖਰੀਦਣ    </a></li>
-              <li><a href="https://mhasiemmalik.github.io/frmplocsites/" target="mf"><i class="fa-solid fa-map-location-dot fa-bounce"></i> LOCAL SITES /<BR> ਸਥਾਨਕ ਸਾਈਟਾਂ   </a></li>
+              <li><a href="https://mhasiemmalik.github.io/FarmMpMsg/" target="mf"><i class="fa-solid fa-store fa-shake"></i> SELL AND BUY /<BR> ਵੇਚਣ ਅਤੇ ਖਰੀਦਣ    </a></li>
+              <li><a href="https://mhasiemmalik.github.io/frmplocsites/" target="mf"><i class="fa-solid fa-map-location-dot fa-bounce"></i> LOCAL SITES /<BR> ਸਥਾਨਕ ਸਾਈਟਾਂ  </a></li>
               <li><a href="https://mhasiemmalik.github.io/frmCrisisCall/" target="mf"><i class="fa-solid fa-hand-holding-medical fa-fade"></i> CRISIS CALL /<BR> ਸੰਕਟ ਸੰਗਠਨ </a></li>
             </ul>
           </li>
         </ul>
       </div>
-      <!--label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <!--label for="show-search" class="search-icon"><i class="fas fa-search fa-bounce"></i> </label>
       <form action="#" class="search-box">
         <input type="text" placeholder="Type Something to Search..." required>
         <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
@@ -448,5 +500,39 @@ nav .content .links{
     <iframe bgcolor="black" src="https://mhasiemmalik.github.io/FARM/"  name="mf" allow="geolocation"> 
     </iframe>
    </SECTION>
+   <script>
+    // Disable right-click
+    document.addEventListener('contextmenu', (event) => event.preventDefault());
+  
+    // Disable keyboard shortcuts
+    document.addEventListener('keydown', (event) => {
+      // Disable F12
+      if (event.key === 'F12') {
+        event.preventDefault();
+      }
+      // Disable Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+Shift+C
+      if (event.ctrlKey && (event.shiftKey && ['I', 'J', 'C'].includes(event.key.toUpperCase())) || event.key === 'U') {
+        event.preventDefault();
+      }
+    });
+  
+    // Detect if developer tools are open
+    let devtools = false;
+    const element = new Image();
+    Object.defineProperty(element, 'id', {
+      get: () => {
+        devtools = true;
+        alert("Developer tools are disabled!");
+      }
+    });
+    console.log(element);
+    setInterval(() => {
+      devtools = false;
+      console.log(element);
+      if (devtools) {
+        window.location.href = "about:blank"; // Redirect to blank page
+      }
+    }, 1000);
+  </script>
 </body>
 </html>
